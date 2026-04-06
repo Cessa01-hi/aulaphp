@@ -1,7 +1,8 @@
 <?php
-require_once 'php8/index.php'
+require_once 'connecta/processa.php';
+include_once 'Healp.php';
 
 
-echo exibir_mensagem();
+echo textoApp(' Estamos todos unidos para mesmas causass');
 
 ?>
