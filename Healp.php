@@ -4,7 +4,7 @@ function saudacao():string
 {
 $hora = 0;
 
-$saudacao = "";
+$saudacao = "Campo vazio";
 
 
 if($hora>= 0 && $hora <= 5)
