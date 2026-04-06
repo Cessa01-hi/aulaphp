@@ -1,7 +1,10 @@
 <?php
 
-function saudacao():string
+echo "Esta pagina e para nos ajudar";
+
+function textoApp(string $texto)
 {
+<<<<<<< HEAD
 $hora = 0;
 
 $saudacao = "Campo vazio";
@@ -31,12 +34,8 @@ return $saudacao;
 function resumirTexto(string $texto,int $limite, string $continua = '...'):string
 {
 
+=======
+>>>>>>> b697a19bb0ac3a763f4e8617cc8e96dd1caad345
 return $texto;
 }
-
-
-
-
-
-
 ?>
